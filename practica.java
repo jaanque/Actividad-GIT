@@ -17,6 +17,13 @@ public class practica {
 		
 		
 		// User 3 fer la multiplicació dels elements de prodArray
+		
+		int resultado = 1;
+		
+        for (int i = 0; i < prodArray.length; i++) {  // Recorro los numeros del array y multiplico cada uno de ellos
+            resultado *= prodArray[i];
+        }
+        System.out.println("El resultado de la multiplicacion del array es: " + resultado); // Muestro el resultado
 	}
 
 }
