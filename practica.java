@@ -14,7 +14,12 @@ public class practica {
 		
 		// User 2 fer la resta dels elements de subArray
 		
-		
+        // Creo la variable para guardar el resultado
+		int resultado = subArray[0] - subArray[1] - subArray[2] - subArray[3] - subArray[4];
+        
+		// Muestro el resultado
+        System.out.println("El resultado de la resta es: " + resultado);
+        
 		
 		// User 3 fer la multiplicació dels elements de prodArray
 	}
